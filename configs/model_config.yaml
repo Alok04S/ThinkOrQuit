@@ -1,0 +1,26 @@
+model:
+  name: "Qwen/Qwen2.5-7B-Instruct"
+  fallback_model: "Qwen/Qwen2.5-3B-Instruct"
+  context_window: 4096
+  device: "auto"
+
+sampling:
+  num_paths: 5
+  temperature: 0.7
+  top_p: 0.95
+  max_new_tokens_per_step: 256
+  total_max_tokens: 1536
+
+checkpoints:
+  num_checkpoints: 3
+  step_descriptions:
+    - "checkpoint_1_early: after ~256 reasoning tokens or step 1"
+    - "checkpoint_2_mid: after ~512 reasoning tokens or step 2"
+    - "checkpoint_3_full: complete reasoning trajectory"
+
+feature_extraction:
+  use_semantic_entropy: true
+  use_consistency_margin: true
+  use_verbalized_confidence: true
+  use_token_cost: true
+  use_martingale_drift: true

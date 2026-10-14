@@ -1,0 +1,38 @@
+seed: 42
+
+splits:
+  train_ratio: 0.30
+  calib_ratio: 0.20
+  val_ratio: 0.20
+  test_ratio: 0.30
+
+calibration_sizes:
+  - 50
+  - 100
+  - 250
+  - 500
+
+datasets:
+  gsm8k:
+    name: "GSM8K"
+    type: "in_distribution"
+    source_file: "data/processed/gsm8k_clean.jsonl"
+    trace_file: "data/traces/gsm8k_traces.jsonl"
+    description: "Grade School Math 8K arithmetic reasoning"
+    answer_format: "numeric"
+  
+  math:
+    name: "MATH"
+    type: "difficulty_shift"
+    source_file: "data/processed/math_clean.jsonl"
+    trace_file: "data/traces/math_traces.jsonl"
+    description: "High school / competition mathematics"
+    answer_format: "algebraic_or_numeric"
+
+  abstentionbench:
+    name: "AbstentionBench"
+    type: "unanswerable_shift"
+    source_file: "data/processed/abstentionbench_clean.jsonl"
+    trace_file: "data/traces/abstentionbench_traces.jsonl"
+    description: "Unanswerable and false-premise questions requiring abstention"
+    answer_format: "unanswerable"

@@ -1,0 +1,72 @@
+{
+  "FixedBudget_Greedy": {
+    "policy_name": "FixedBudget_Greedy",
+    "total_examples": 132,
+    "answered_count": 132,
+    "abstained_count": 0,
+    "correct_count": 82,
+    "incorrect_count": 50,
+    "coverage": 1.0,
+    "selective_risk": 0.3788,
+    "accuracy_on_answered": 0.6212,
+    "effective_accuracy": 0.6212,
+    "avg_tokens_spent": 251.96,
+    "cost_per_correct_answer": 405.6
+  },
+  "FixedBudget_SelfConsistency": {
+    "policy_name": "FixedBudget_SelfConsistency",
+    "total_examples": 132,
+    "answered_count": 132,
+    "abstained_count": 0,
+    "correct_count": 117,
+    "incorrect_count": 15,
+    "coverage": 1.0,
+    "selective_risk": 0.1136,
+    "accuracy_on_answered": 0.8864,
+    "effective_accuracy": 0.8864,
+    "avg_tokens_spent": 760.12,
+    "cost_per_correct_answer": 857.57
+  },
+  "Confidence_Abstain": {
+    "policy_name": "Confidence_Abstain",
+    "total_examples": 132,
+    "answered_count": 132,
+    "abstained_count": 0,
+    "correct_count": 117,
+    "incorrect_count": 15,
+    "coverage": 1.0,
+    "selective_risk": 0.1136,
+    "accuracy_on_answered": 0.8864,
+    "effective_accuracy": 0.8864,
+    "avg_tokens_spent": 760.12,
+    "cost_per_correct_answer": 857.57
+  },
+  "DEER_EarlyExit": {
+    "policy_name": "DEER_EarlyExit",
+    "total_examples": 132,
+    "answered_count": 132,
+    "abstained_count": 0,
+    "correct_count": 82,
+    "incorrect_count": 50,
+    "coverage": 1.0,
+    "selective_risk": 0.3788,
+    "accuracy_on_answered": 0.6212,
+    "effective_accuracy": 0.6212,
+    "avg_tokens_spent": 251.96,
+    "cost_per_correct_answer": 405.6
+  },
+  "Conformal_Thinking": {
+    "policy_name": "Conformal_Thinking",
+    "total_examples": 132,
+    "answered_count": 132,
+    "abstained_count": 0,
+    "correct_count": 82,
+    "incorrect_count": 50,
+    "coverage": 1.0,
+    "selective_risk": 0.3788,
+    "accuracy_on_answered": 0.6212,
+    "effective_accuracy": 0.6212,
+    "avg_tokens_spent": 251.96,
+    "cost_per_correct_answer": 405.6
+  }
+}

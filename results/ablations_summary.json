@@ -1,0 +1,108 @@
+{
+  "variant_results": {
+    "Full ThinkOrQuit": {
+      "policy_name": "Full ThinkOrQuit",
+      "total_examples": 86,
+      "answered_count": 0,
+      "abstained_count": 86,
+      "correct_count": 0,
+      "incorrect_count": 0,
+      "coverage": 0.0,
+      "selective_risk": 0.0,
+      "accuracy_on_answered": 0.0,
+      "effective_accuracy": 0.0,
+      "avg_tokens_spent": 501.3,
+      "cost_per_correct_answer": Infinity
+    },
+    "Ablation 1 (-Drift)": {
+      "policy_name": "Ablation 1 (-Drift)",
+      "total_examples": 86,
+      "answered_count": 0,
+      "abstained_count": 86,
+      "correct_count": 0,
+      "incorrect_count": 0,
+      "coverage": 0.0,
+      "selective_risk": 0.0,
+      "accuracy_on_answered": 0.0,
+      "effective_accuracy": 0.0,
+      "avg_tokens_spent": 501.3,
+      "cost_per_correct_answer": Infinity
+    },
+    "Ablation 2 (-ShiftWeights)": {
+      "policy_name": "Ablation 2 (-ShiftWeights)",
+      "total_examples": 86,
+      "answered_count": 0,
+      "abstained_count": 86,
+      "correct_count": 0,
+      "incorrect_count": 0,
+      "coverage": 0.0,
+      "selective_risk": 0.0,
+      "accuracy_on_answered": 0.0,
+      "effective_accuracy": 0.0,
+      "avg_tokens_spent": 501.3,
+      "cost_per_correct_answer": Infinity
+    },
+    "Ablation 3 (-ValueEstimator)": {
+      "policy_name": "Ablation 3 (-ValueEstimator)",
+      "total_examples": 86,
+      "answered_count": 86,
+      "abstained_count": 0,
+      "correct_count": 41,
+      "incorrect_count": 45,
+      "coverage": 1.0,
+      "selective_risk": 0.5233,
+      "accuracy_on_answered": 0.4767,
+      "effective_accuracy": 0.4767,
+      "avg_tokens_spent": 1028.34,
+      "cost_per_correct_answer": 2157.0
+    }
+  },
+  "comparisons": {
+    "Ablation 1 (-Drift)": {
+      "observed_mean_diff": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0,
+      "p_value_two_sided": 1.0,
+      "p_value_one_sided": 1.0,
+      "is_significant": false
+    },
+    "Ablation 2 (-ShiftWeights)": {
+      "observed_mean_diff": 0.0,
+      "ci_lower": 0.0,
+      "ci_upper": 0.0,
+      "p_value_two_sided": 1.0,
+      "p_value_one_sided": 1.0,
+      "is_significant": false
+    },
+    "Ablation 3 (-ValueEstimator)": {
+      "observed_mean_diff": 0.5232558139534884,
+      "ci_lower": 0.4186046511627907,
+      "ci_upper": 0.6395348837209303,
+      "p_value_two_sided": 0.0,
+      "p_value_one_sided": 0.0,
+      "is_significant": true
+    }
+  },
+  "holm_bonferroni": [
+    {
+      "variant": "Ablation 1 (-Drift)",
+      "p_val": 1.0,
+      "threshold": 0.025,
+      "is_sig": false
+    },
+    {
+      "variant": "Ablation 2 (-ShiftWeights)",
+      "p_val": 1.0,
+      "threshold": 0.05,
+      "is_sig": false
+    },
+    {
+      "variant": "Ablation 3 (-ValueEstimator)",
+      "p_val": 0.0,
+      "threshold": 0.016666666666666666,
+      "is_sig": true
+    }
+  ],
+  "h4_status": "SUPPORTED",
+  "figure_path": "results/figures/ablation_study.png"
+}

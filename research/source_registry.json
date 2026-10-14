@@ -1,0 +1,172 @@
+{
+  "registry_version": "1.0",
+  "last_updated": "2026-10-12",
+  "verification_policy": "Strict source verification via arXiv, OpenReview, ACL Anthology, NeurIPS, ICML, and official author repositories. Unverified claims prohibited.",
+  "sources": [
+    {
+      "id": "huang2025adactrl",
+      "title": "AdaCtrl: Towards Adaptive and Controllable Reasoning via Difficulty-Aware Budgeting",
+      "authors": ["Shijue Huang", "Hongru Wang", "Wanjun Zhong", "Zhaochen Su", "Jiazhan Feng", "Bowen Cao", "Yi R. Fung"],
+      "year": 2025,
+      "venue": "arXiv preprint",
+      "arxiv_id": "2505.18822",
+      "url": "https://arxiv.org/abs/2505.18822",
+      "code_url": "https://github.com/JoeYing1019/AdaCtrl",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "wang2026conformal_thinking",
+      "title": "Conformal Thinking: Risk Control for Reasoning on a Compute Budget",
+      "authors": ["Xi Wang", "Anushri Suresh", "Alvin Zhang", "Rishi More", "William Jurayj", "Benjamin Van Durme", "Mehrdad Farajtabar", "Daniel Khashabi", "Eric Nalisnick"],
+      "year": 2026,
+      "venue": "arXiv preprint / OpenReview",
+      "arxiv_id": "2602.03814",
+      "url": "https://arxiv.org/abs/2602.03814",
+      "code_url": "UNVERIFIED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "davidov2026knowing",
+      "title": "Knowing When to Quit: A Principled Framework for Dynamic Abstention in LLM Reasoning",
+      "authors": ["Hen Davidov", "Nachshon Cohen", "Oren Kalinsky", "Yaron Fairstein", "Guy Kushilevitz", "Ram Yazdi", "Patrick Rebeschini"],
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "arxiv_id": "2604.18419",
+      "url": "https://arxiv.org/abs/2604.18419",
+      "code_url": "UNVERIFIED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "zhang2024rtuning",
+      "title": "R-Tuning: Instructing Large Language Models to Say \"I Don't Know\"",
+      "authors": ["Hanning Zhang", "Shizhe Diao", "Yong Lin", "Yi R. Fung", "Qing Lian", "Xingyao Wang", "Yangyi Chen", "Heng Ji", "Tong Zhang"],
+      "year": 2024,
+      "venue": "NAACL 2024 (Outstanding Paper)",
+      "arxiv_id": "2311.09677",
+      "url": "https://aclanthology.org/2024.naacl-long.401/",
+      "code_url": "https://github.com/shizhediao/R-Tuning",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "kirichenko2025abstentionbench",
+      "title": "AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions",
+      "authors": ["Polina Kirichenko", "Mark Ibrahim", "Kamalika Chaudhuri", "Samuel J. Bell"],
+      "year": 2025,
+      "venue": "arXiv preprint",
+      "arxiv_id": "2506.09038",
+      "url": "https://arxiv.org/abs/2506.09038",
+      "code_url": "https://github.com/facebookresearch/AbstentionBench",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "yang2025deer",
+      "title": "Dynamic Early Exit in Reasoning Models",
+      "authors": ["Chenxu Yang", "Qingyi Si", "Yongjie Duan", "Zheliang Zhu", "Chenyu Zhu", "Qiaowei Li", "Zheng Lin", "Li Cao", "Weiping Wang"],
+      "year": 2025,
+      "venue": "arXiv preprint",
+      "arxiv_id": "2504.15895",
+      "url": "https://arxiv.org/abs/2504.15895",
+      "code_url": "UNVERIFIED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "desabbata2024metareasoning",
+      "title": "Rational Metareasoning for Large Language Models",
+      "authors": ["C. Nicolo De Sabbata", "Theodore R. Sumers", "Thomas L. Griffiths"],
+      "year": 2024,
+      "venue": "NeurIPS 2024",
+      "arxiv_id": "2410.05563",
+      "url": "https://arxiv.org/abs/2410.05563",
+      "code_url": "UNVERIFIED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "abbasiyadkori2024conformal_abstention",
+      "title": "Mitigating LLM Hallucinations via Conformal Abstention",
+      "authors": ["Yasin Abbasi-Yadkori", "Ilja Kuzborskij", "David Stutz", "Andras Gyorgy", "Adam Fisch", "Arnaud Doucet", "Iuliya Beloshapka", "Wei-Hung Weng", "Yao-Yuan Yang", "Csaba Szepesvari", "Ali Taylan Cemgil", "Nenad Tomasev"],
+      "year": 2024,
+      "venue": "NeurIPS 2024",
+      "arxiv_id": "2405.01563",
+      "url": "https://arxiv.org/abs/2405.01563",
+      "code_url": "UNVERIFIED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "lin2026dscp",
+      "title": "Domain-Shift-Aware Conformal Prediction for Large Language Models",
+      "authors": ["Zhexiao Lin", "Yuanyuan Li", "Neeraj Sarna", "Yuanyuan Gao", "Michael von Gablenz"],
+      "year": 2026,
+      "venue": "ICML 2026",
+      "arxiv_id": "2510.05566",
+      "url": "https://arxiv.org/abs/2510.05566",
+      "code_url": "UNVERIFIED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "huang2026cats",
+      "title": "CaTS: Calibrated Test-Time Scaling for Efficient LLM Reasoning",
+      "authors": ["Chengsong Huang", "Langlin Huang", "Jixuan Leng", "Jiacheng Liu", "Jiaxin Huang"],
+      "year": 2026,
+      "venue": "ICLR 2026",
+      "arxiv_id": "2503.00031",
+      "url": "https://arxiv.org/abs/2503.00031",
+      "code_url": "UNVERIFIED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "wang2026orca",
+      "title": "Online Reasoning Calibration: Test-Time Training Enables Generalizable Conformal LLM Reasoning",
+      "authors": ["Zekai Wang", "et al."],
+      "year": 2026,
+      "venue": "COLM 2026",
+      "arxiv_id": "2604.01170",
+      "url": "https://arxiv.org/abs/2604.01170",
+      "code_url": "https://github.com/wzekai99/ORCA",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "snell2024scaling_testtime",
+      "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+      "authors": ["Charlie Snell", "Jaehoon Lee", "Kelvin Xu", "Aviral Kumar"],
+      "year": 2024,
+      "venue": "arXiv preprint",
+      "arxiv_id": "2408.03314",
+      "url": "https://arxiv.org/abs/2408.03314",
+      "code_url": "UNVERIFIED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "geifman2017selective",
+      "title": "Selective Classification for Deep Neural Networks",
+      "authors": ["Yonatan Geifman", "Ran El-Yaniv"],
+      "year": 2017,
+      "venue": "NeurIPS 2017",
+      "arxiv_id": "1709.00640",
+      "url": "https://arxiv.org/abs/1709.00640",
+      "code_url": "UNVERIFIED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "wang2023self_consistency",
+      "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+      "authors": ["Xuezhi Wang", "Jason Wei", "Dale Schuurmans", "Quoc Le", "Ed Chi", "Sharan Narang", "Aakanksha Chowdhery", "Denny Zhou"],
+      "year": 2023,
+      "venue": "ICLR 2023",
+      "arxiv_id": "2203.11171",
+      "url": "https://arxiv.org/abs/2203.11171",
+      "code_url": "UNVERIFIED",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "id": "xiong2024uncertainty_elicitation",
+      "title": "Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs",
+      "authors": ["Miao Xiong", "Zhiyuan Hu", "Xinyang Lu", "Yifei Li", "Jie Fu", "Junxian He", "Bryan Hooi"],
+      "year": 2024,
+      "venue": "ICLR 2024",
+      "arxiv_id": "2306.13063",
+      "url": "https://arxiv.org/abs/2306.13063",
+      "code_url": "UNVERIFIED",
+      "verification_status": "VERIFIED"
+    }
+  ]
+}

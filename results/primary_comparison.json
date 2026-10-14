@@ -1,0 +1,70 @@
+{
+  "metrics": {
+    "FixedBudget_SelfConsistency": {
+      "policy_name": "FixedBudget_SelfConsistency",
+      "total_examples": 132,
+      "answered_count": 132,
+      "abstained_count": 0,
+      "correct_count": 117,
+      "incorrect_count": 15,
+      "coverage": 1.0,
+      "selective_risk": 0.1136,
+      "accuracy_on_answered": 0.8864,
+      "effective_accuracy": 0.8864,
+      "avg_tokens_spent": 760.12,
+      "cost_per_correct_answer": 857.57
+    },
+    "Confidence_Abstain": {
+      "policy_name": "Confidence_Abstain",
+      "total_examples": 132,
+      "answered_count": 132,
+      "abstained_count": 0,
+      "correct_count": 117,
+      "incorrect_count": 15,
+      "coverage": 1.0,
+      "selective_risk": 0.1136,
+      "accuracy_on_answered": 0.8864,
+      "effective_accuracy": 0.8864,
+      "avg_tokens_spent": 760.12,
+      "cost_per_correct_answer": 857.57
+    },
+    "Conformal_Thinking": {
+      "policy_name": "Conformal_Thinking",
+      "total_examples": 132,
+      "answered_count": 132,
+      "abstained_count": 0,
+      "correct_count": 82,
+      "incorrect_count": 50,
+      "coverage": 1.0,
+      "selective_risk": 0.3788,
+      "accuracy_on_answered": 0.6212,
+      "effective_accuracy": 0.6212,
+      "avg_tokens_spent": 251.96,
+      "cost_per_correct_answer": 405.6
+    },
+    "ThinkOrQuit_CSW_OSSA": {
+      "policy_name": "ThinkOrQuit_CSW_OSSA",
+      "total_examples": 132,
+      "answered_count": 101,
+      "abstained_count": 31,
+      "correct_count": 101,
+      "incorrect_count": 0,
+      "coverage": 0.7652,
+      "selective_risk": 0.0,
+      "accuracy_on_answered": 1.0,
+      "effective_accuracy": 0.7652,
+      "avg_tokens_spent": 583.68,
+      "cost_per_correct_answer": 762.83
+    }
+  },
+  "token_savings_percentage": 23.21200765428162,
+  "h2_hypothesis_test": {
+    "observed_mean_diff": -176.43939393939394,
+    "ci_lower": -210.82594696969696,
+    "ci_upper": -146.2037878787879,
+    "p_value_two_sided": 0.0,
+    "p_value_one_sided": 0.0,
+    "is_significant": true
+  },
+  "h2_status": "REJECTED"
+}

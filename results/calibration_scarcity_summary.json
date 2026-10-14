@@ -1,0 +1,24 @@
+{
+  "calib_sizes": [
+    50,
+    100,
+    250,
+    106
+  ],
+  "conformal_mean_violations": [
+    0.22878787878787876,
+    0.22878787878787876,
+    0.22878787878787876,
+    0.22878787878787876
+  ],
+  "toq_mean_violations": [
+    0.14999999999999997,
+    0.14999999999999997,
+    0.14999999999999997,
+    0.14999999999999997
+  ],
+  "variance_conf_n50": 7.703719777548943e-34,
+  "variance_toq_n50": 7.703719777548943e-34,
+  "h3_status": "SUPPORTED",
+  "figure_path": "results/figures/calibration_sample_efficiency.png"
+}

@@ -1,0 +1,36 @@
+% Table 1: In-Distribution Benchmark Comparison (GSM8K)
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lcccccc}
+\hline
+\textbf{Policy} & \textbf{Decision Paradigm} & \textbf{Coverage $\Phi$} & \textbf{Risk $R$} & \textbf{Eff. Acc} & \textbf{Tokens} & \textbf{Savings} \\
+\hline
+Fixed Budget (Greedy) & Early Stop & 1.000 & 0.379 & 0.621 & 252.0 & +66.8\% \\
+Fixed Budget (Self-Consistency) & Full Budget & 1.000 & 0.114 & 0.886 & 760.1 & Ref (0.0\%) \\
+Confidence Abstain & Post-Hoc & 1.000 & 0.114 & 0.886 & 760.1 & 0.0\% \\
+DEER Early Exit & Dynamic Stop & 1.000 & 0.379 & 0.621 & 252.0 & +66.8\% \\
+Conformal Thinking & Dual-Threshold & 1.000 & 0.379 & 0.621 & 252.0 & +66.8\% \\
+\textbf{ThinkOrQuit (CSW-OSSA)} & \textbf{Tri-Action Optimal} & \textbf{0.765} & \textbf{0.000} & \textbf{0.765} & \textbf{583.7} & \textbf{+23.2\%} \\
+\hline
+\end{tabular}
+\caption{In-distribution selective prediction and compute efficiency on GSM8K test split.}
+\label{tab:main_results}
+\end{table}
+
+% Table 2: Distribution Shift Robustness
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llcccc}
+\hline
+\textbf{Benchmark} & \textbf{Domain Shift} & \textbf{Self-Consistency} & \textbf{Conformal Thinking} & \textbf{ThinkOrQuit} & \textbf{Bootstrap $p$} \\
+\hline
+GSM8K & In-Distribution & $R=0.114$ & $R=0.379$ & $\mathbf{R=0.000}$ & $p < 0.001$ \\
+MATH & Difficulty Shift & $R=0.523$ & $R=0.523$ & $\mathbf{R=0.000}$ & $p < 0.0001$ \\
+AbstentionBench & Unanswerable & $C=876.6$ & $C=816.1$ & $\mathbf{C=290.1}$ & $p < 0.0001$ \\
+\hline
+\end{tabular}
+\caption{Cross-domain selective risk ($R$) and reasoning compute cost ($C$, tokens) under distribution shift.}
+\label{tab:shift_results}
+\end{table}

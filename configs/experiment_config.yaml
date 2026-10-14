@@ -1,0 +1,29 @@
+seed: 42
+
+risk_control:
+  nominal_alpha: 0.15
+  confidence_delta: 0.05
+  alpha_sweep: [0.05, 0.10, 0.15, 0.20, 0.25, 0.30]
+  coverage_target: 0.75
+
+utility_function:
+  u_correct: 1.0
+  u_abstain: 0.0
+  u_error: -2.0
+  cost_penalty_per_100_tokens: 0.05
+
+bootstrap:
+  num_iterations: 1000
+  confidence_level: 0.95
+  method: "bca"
+
+shift_evaluation:
+  source: "gsm8k"
+  targets:
+    - "math"
+    - "abstentionbench"
+
+output_paths:
+  registry: "results/registry.jsonl"
+  figures_dir: "results/figures"
+  tables_dir: "results/tables"

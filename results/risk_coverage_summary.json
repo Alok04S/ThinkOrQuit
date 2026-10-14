@@ -1,0 +1,6 @@
+{
+  "rc_auc_confidence_abstain": 0.02668732782369146,
+  "rc_auc_conformal_thinking": 0.02668732782369146,
+  "rc_auc_think_or_quit": 0.00671401199459892,
+  "figure_path": "results/figures/risk_coverage_curve.png"
+}

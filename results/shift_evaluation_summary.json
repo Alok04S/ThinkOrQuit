@@ -1,0 +1,188 @@
+{
+  "domain_results": {
+    "In-Distribution (GSM8K)": {
+      "FixedBudget_SelfConsistency": {
+        "policy_name": "FixedBudget_SelfConsistency",
+        "total_examples": 132,
+        "answered_count": 132,
+        "abstained_count": 0,
+        "correct_count": 117,
+        "incorrect_count": 15,
+        "coverage": 1.0,
+        "selective_risk": 0.1136,
+        "accuracy_on_answered": 0.8864,
+        "effective_accuracy": 0.8864,
+        "avg_tokens_spent": 760.12,
+        "cost_per_correct_answer": 857.57
+      },
+      "Confidence_Abstain": {
+        "policy_name": "Confidence_Abstain",
+        "total_examples": 132,
+        "answered_count": 132,
+        "abstained_count": 0,
+        "correct_count": 117,
+        "incorrect_count": 15,
+        "coverage": 1.0,
+        "selective_risk": 0.1136,
+        "accuracy_on_answered": 0.8864,
+        "effective_accuracy": 0.8864,
+        "avg_tokens_spent": 760.12,
+        "cost_per_correct_answer": 857.57
+      },
+      "Conformal_Thinking": {
+        "policy_name": "Conformal_Thinking",
+        "total_examples": 132,
+        "answered_count": 132,
+        "abstained_count": 0,
+        "correct_count": 82,
+        "incorrect_count": 50,
+        "coverage": 1.0,
+        "selective_risk": 0.3788,
+        "accuracy_on_answered": 0.6212,
+        "effective_accuracy": 0.6212,
+        "avg_tokens_spent": 251.96,
+        "cost_per_correct_answer": 405.6
+      },
+      "ThinkOrQuit_CSW_OSSA": {
+        "policy_name": "ThinkOrQuit_CSW_OSSA",
+        "total_examples": 132,
+        "answered_count": 101,
+        "abstained_count": 31,
+        "correct_count": 101,
+        "incorrect_count": 0,
+        "coverage": 0.7652,
+        "selective_risk": 0.0,
+        "accuracy_on_answered": 1.0,
+        "effective_accuracy": 0.7652,
+        "avg_tokens_spent": 583.68,
+        "cost_per_correct_answer": 762.83
+      }
+    },
+    "Difficulty Shift (MATH)": {
+      "FixedBudget_SelfConsistency": {
+        "policy_name": "FixedBudget_SelfConsistency",
+        "total_examples": 86,
+        "answered_count": 86,
+        "abstained_count": 0,
+        "correct_count": 41,
+        "incorrect_count": 45,
+        "coverage": 1.0,
+        "selective_risk": 0.5233,
+        "accuracy_on_answered": 0.4767,
+        "effective_accuracy": 0.4767,
+        "avg_tokens_spent": 1028.34,
+        "cost_per_correct_answer": 2157.0
+      },
+      "Confidence_Abstain": {
+        "policy_name": "Confidence_Abstain",
+        "total_examples": 86,
+        "answered_count": 86,
+        "abstained_count": 0,
+        "correct_count": 41,
+        "incorrect_count": 45,
+        "coverage": 1.0,
+        "selective_risk": 0.5233,
+        "accuracy_on_answered": 0.4767,
+        "effective_accuracy": 0.4767,
+        "avg_tokens_spent": 1028.34,
+        "cost_per_correct_answer": 2157.0
+      },
+      "Conformal_Thinking": {
+        "policy_name": "Conformal_Thinking",
+        "total_examples": 86,
+        "answered_count": 86,
+        "abstained_count": 0,
+        "correct_count": 41,
+        "incorrect_count": 45,
+        "coverage": 1.0,
+        "selective_risk": 0.5233,
+        "accuracy_on_answered": 0.4767,
+        "effective_accuracy": 0.4767,
+        "avg_tokens_spent": 483.09,
+        "cost_per_correct_answer": 1013.32
+      },
+      "ThinkOrQuit_CSW_OSSA": {
+        "policy_name": "ThinkOrQuit_CSW_OSSA",
+        "total_examples": 86,
+        "answered_count": 0,
+        "abstained_count": 86,
+        "correct_count": 0,
+        "incorrect_count": 0,
+        "coverage": 0.0,
+        "selective_risk": 0.0,
+        "accuracy_on_answered": 0.0,
+        "effective_accuracy": 0.0,
+        "avg_tokens_spent": 501.3,
+        "cost_per_correct_answer": Infinity
+      }
+    },
+    "Unanswerability Shift (AbstentionBench)": {
+      "FixedBudget_SelfConsistency": {
+        "policy_name": "FixedBudget_SelfConsistency",
+        "total_examples": 53,
+        "answered_count": 53,
+        "abstained_count": 0,
+        "correct_count": 0,
+        "incorrect_count": 53,
+        "coverage": 1.0,
+        "selective_risk": 1.0,
+        "accuracy_on_answered": 0.0,
+        "effective_accuracy": 0.0,
+        "avg_tokens_spent": 876.64,
+        "cost_per_correct_answer": Infinity
+      },
+      "Confidence_Abstain": {
+        "policy_name": "Confidence_Abstain",
+        "total_examples": 53,
+        "answered_count": 53,
+        "abstained_count": 0,
+        "correct_count": 0,
+        "incorrect_count": 53,
+        "coverage": 1.0,
+        "selective_risk": 1.0,
+        "accuracy_on_answered": 0.0,
+        "effective_accuracy": 0.0,
+        "avg_tokens_spent": 876.64,
+        "cost_per_correct_answer": Infinity
+      },
+      "Conformal_Thinking": {
+        "policy_name": "Conformal_Thinking",
+        "total_examples": 53,
+        "answered_count": 53,
+        "abstained_count": 0,
+        "correct_count": 0,
+        "incorrect_count": 53,
+        "coverage": 1.0,
+        "selective_risk": 1.0,
+        "accuracy_on_answered": 0.0,
+        "effective_accuracy": 0.0,
+        "avg_tokens_spent": 816.06,
+        "cost_per_correct_answer": Infinity
+      },
+      "ThinkOrQuit_CSW_OSSA": {
+        "policy_name": "ThinkOrQuit_CSW_OSSA",
+        "total_examples": 53,
+        "answered_count": 3,
+        "abstained_count": 50,
+        "correct_count": 0,
+        "incorrect_count": 3,
+        "coverage": 0.0566,
+        "selective_risk": 1.0,
+        "accuracy_on_answered": 0.0,
+        "effective_accuracy": 0.0,
+        "avg_tokens_spent": 290.09,
+        "cost_per_correct_answer": Infinity
+      }
+    }
+  },
+  "h1_hypothesis_test": {
+    "observed_mean_diff": -0.5232558139534884,
+    "ci_lower": -0.6395348837209303,
+    "ci_upper": -0.4186046511627907,
+    "p_value_two_sided": 0.0,
+    "p_value_one_sided": 0.0,
+    "is_significant": true
+  },
+  "h1_status": "SUPPORTED",
+  "figure_path": "results/figures/distribution_shift_degradation.png"
+}
